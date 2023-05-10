@@ -1,0 +1,5 @@
+/* Write your global styles here, in CSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://use.typekit.net/qem3paa.css'rel='stylesheet');

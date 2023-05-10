@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+
+	<svelte:head>
+		<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<meta name="viewport" content="width=device-width" />
 		%sveltekit.head%
-	</head>
+	</svelte:head>
 	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">%sveltekit.body%</div>
+		<div style="display: contents"><p>%sveltekit.body%</p></div>
 	</body>
+
+
+	
 </html>
