@@ -1,7 +1,10 @@
 <script>
-	import TitleCard from './TitleCard.svelte'
+	import GotoTop from '$lib/components/GotoTop.svelte'
+	import Projects from '$lib/components/Projects.svelte'
 </script>
 
-<p class="text-right">Here is where there will be Projects listed</p>
+<main>
+	<Projects />
 
-<TitleCard />
+	<GotoTop showAtPixel={50} />
+</main>
