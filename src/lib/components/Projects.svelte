@@ -1,6 +1,6 @@
 <script>
 	import Saos from 'saos'
-	import { posts } from '/Users/kailen/Documents/Pratt Courses/INFO-637/Final-Project/src/routes/projects/data.js'
+	import { posts } from '$lib/projects.js'
 </script>
 
 <main>
