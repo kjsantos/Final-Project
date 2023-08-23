@@ -1,10 +1,12 @@
-import { posts } from './data.js'
+import { posts } from '../../lib/writing.js'
 
-export function load() {
+export async function load() {
 	return {
 		summaries: posts.map((post) => ({
-			slug: post.slug,
 			title: post.title,
+			subtitle: post.subtitle,
+			link: post.link,
+			thumbnail: post.thumbnail,
 		})),
 	}
 }

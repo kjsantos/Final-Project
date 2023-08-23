@@ -1,6 +1,6 @@
-<script>
+<script lang="ts">
 	import Saos from 'saos'
-	import { posts } from '/Users/kailen/Documents/Pratt Courses/INFO-637/Final-Project/src/routes/writing/data.js'
+	import { posts } from '$lib/writing.js'
 </script>
 
 <main>
@@ -13,7 +13,7 @@
 					Here is where Projects will go
 				</h2>
 			</Saos>
-			{#each posts as { slug, title, subtitle, link, thumbnail }}
+			{#each posts as { title, subtitle, link, thumbnail }}
 				<Saos
 					animation={'fade-in .7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both'}
 					animation_out={'slide-out-fwd-center 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both'}
