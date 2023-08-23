@@ -1,14 +1,10 @@
 <script lang="ts">
 	import GotoTop from '$lib/components/GotoTop.svelte'
-	import Project from './Project.svelte'
-
-	function handleObserver(x: CustomEvent<any>) {
-		console.info(x.detail.observing)
-	}
+	import Writing from '$lib/components/Writing.svelte'
 </script>
 
 <main>
-	<Project />
+	<Writing />
 
 	<GotoTop showAtPixel={50} />
 </main>

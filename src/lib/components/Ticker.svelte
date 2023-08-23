@@ -4,7 +4,7 @@
 	export let open = false
 </script>
 
-<aside class="block p-2 hover:text-gray-900" class:open>
+<aside class="block pt-3 pl-20 hover:text-gray-900" class:open>
 	<Marquee speed={40} {play}>
 		<p class="ticker text-right">
 			&nbsp;&nbsp;This website was made using SvelteKit and Tailwind.css
@@ -22,11 +22,12 @@
 
 <style lang="postcss">
 	aside {
-		left: -100%;
+		left: 100%;
 		transition: left 0.3s ease-in-out;
+		max-height: fit-content;
 	}
 
 	.open {
-		opacity: 0;
+		position: relative;
 	}
 </style>

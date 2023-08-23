@@ -7,7 +7,7 @@
 </script>
 
 <aside
-	class="absolute h-full w-1/6 rounded-e-lg text-gray-600 shadow-lg"
+	class="fixed h-full top-0 w-1/6 rounded-e-lg text-gray-600 shadow-lg"
 	style="background-color: #A3B39A"
 	class:open>
 	<nav class="p-12 text-xl">
@@ -40,7 +40,7 @@
 	}
 
 	.open {
-		position: absolute;
+		position: fixed;
 		left: 0;
 	}
 </style>

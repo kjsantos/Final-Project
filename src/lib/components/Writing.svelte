@@ -1,11 +1,11 @@
 <script>
 	import Saos from 'saos'
-	import { posts } from '/Users/kailen/Documents/Pratt Courses/INFO-637/Final-Project/src/routes/projects/data.js'
+	import { posts } from '/Users/kailen/Documents/Pratt Courses/INFO-637/Final-Project/src/routes/writing/data.js'
 </script>
 
 <main>
 	<div class="mt-6 overflow-hidden">
-		<section>
+		<section class="mx-48">
 			<Saos
 				animation={'fade-in .2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both'}
 				once={true}>
@@ -13,29 +13,31 @@
 					Here is where Projects will go
 				</h2>
 			</Saos>
-			{#each posts as { slug, title, content }}
-				<a href="/projects/{slug}">
-					<Saos
-						animation={'fade-in .7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both'}
-						animation_out={'slide-out-fwd-center 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both'}
-						top={150}
-						bottom={150}>
+			{#each posts as { slug, title, subtitle, link, thumbnail }}
+				<Saos
+					animation={'fade-in .7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both'}
+					animation_out={'slide-out-fwd-center 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both'}
+					top={250}
+					bottom={250}>
+					<a href={link}>
 						<div
-							class="mx-52 my-10 flex h-full justify-between rounded-t-3xl rounded-bl-3xl p-8 shadow-2xl shadow-slate-800"
+							class="my-10 flex content-center rounded-t-3xl rounded-bl-3xl p-8 shadow-2xl shadow-slate-800"
 							style="background-color: #FFF5F5">
-							<div class="justify-items-left container w-auto">
-								<div class="pl-26 w-3/5">
+							<div class="justify-items-left container pr-20">
+								<div class="pl-26">
 									<h2>{title}</h2>
-									<p><br />{content}</p>
+									<p><br />{subtitle}</p>
 								</div>
 							</div>
-							<img
-								class="justify-items-left h-1/4 w-1/4 py-12"
-								src="images/Screenshot 2023-03-20 at 5.50.04 PM.png"
-								alt="" />
+							<div class="container w-1/3 self-center">
+								<img
+									class="justify-items-left align-items-center object-scale-down p-2"
+									src={thumbnail}
+									alt="" />
+							</div>
 						</div>
-					</Saos>
-				</a>
+					</a>
+				</Saos>
 			{/each}
 		</section>
 	</div>
@@ -47,10 +49,11 @@
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: space-around;
-		margin: 0 auto;
+		margin-right: 22rem;
+		margin-left: 22rem;
 		max-width: 76rem;
 		overflow-x: visible;
-		overflow-y: hidden;
+		overflow-y: visible;
 	}
 
 	a {

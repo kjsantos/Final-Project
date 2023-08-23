@@ -1,11 +1,13 @@
 <script>
 	import '../app.css'
-	import Navbar from './Navbar.svelte'
-	import Sidebar from './Sidebar.svelte'
+	import Navbar from '$lib/components/Navbar.svelte'
+	import Sidebar from '$lib/components/Sidebar.svelte'
+	import Ticker from '$lib/components/Ticker.svelte'
 
-	let open = false
+	export let open = false
 </script>
 
+<Ticker bind:open />
 <Sidebar bind:open />
 <Navbar bind:sidebar={open} />
 
@@ -36,6 +38,26 @@
 			line-height: 2rem;
 			font-family: 'josefin-sans', sans-serif;
 		}
+
+		p.blog {
+			color: white;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 1.75rem;
+			line-height: 2.2rem;
+			font-family: 'josefin-sans', sans-serif;
+		}
+
+		b {
+			padding-top: 20px;
+			color: slategrey;
+			font-style: normal;
+			font-weight: 900;
+			font-size: 1.75rem;
+			line-height: 2.2rem;
+			font-family: 'josefin-sans', sans-serif;
+		}
+
 		a {
 			color: #f1ffe8;
 			font-style: normal;
@@ -56,6 +78,9 @@
 			font-style: italic;
 			font-weight: 600;
 			font-family: 'obviously', sans-serif;
+		}
+		img {
+			border-color: #9ab3ae;
 		}
 		@media (min-width: 480px) {
 			h1 {
