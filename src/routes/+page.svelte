@@ -22,7 +22,7 @@
 				<animateMotion
 					path="M -196.044 -99.453 L -128.541 -77.858"
 					calcMode="linear"
-					begin="0s"
+					begin="-0s"
 					dur="3.96s"
 					fill="freeze" />
 			</path>
@@ -46,7 +46,7 @@
 					calcMode="spline"
 					keyTimes="0; 0.269416; 1"
 					keySplines="0.04 0 1 0; 0.11 0 0.5 0"
-					begin="0.07s" /></text
+					begin="-0.07s" /></text
 			></a>
 		<text
 			style="white-space: pre; font-family: Arial, sans-serif; font-size: 17.9px;"
@@ -67,7 +67,7 @@
 					keyTimes="0; 0.451337; 1"
 					calcMode="spline"
 					keySplines="1 0 1 0; 0.11 0 0.5 0"
-					begin="0.1s" /></text
+					begin="-0.1s" /></text
 			></a>
 		<a href="/writing">
 			<text
@@ -83,7 +83,7 @@
 					dur="1.93s"
 					fill="freeze"
 					keyTimes="0; 0.58141; 1"
-					begin="0.09s"
+					begin="-0.09s"
 					calcMode="spline"
 					keySplines="0 0 1 1; 0.11 0 0.5 0" /></text>
 		</a>
@@ -100,7 +100,7 @@
 					dur="1.96s"
 					fill="freeze"
 					keyTimes="0; 0.64605; 1"
-					begin="0.11s"
+					begin="-0.11s"
 					calcMode="spline"
 					keySplines="0 0 1 1; 0.11 0 0.5 0" /></text
 			></a>
