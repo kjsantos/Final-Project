@@ -33,7 +33,7 @@
 			id="path-4" />
 		<a href="/about"
 			><text
-				style="font-family: &quot;Josefin Sans&quot;; font-size: 25px; letter-spacing: 1.5px; word-spacing: -2.8px; white-space: pre; transform-box: fill-box; transform-origin: 50% 50%;"
+				style="letter-spacing: 1.5px; word-spacing: -2.8px; white-space: pre; transform-box: fill-box; transform-origin: 50% 50%;"
 				x="70.6098"
 				y="303.157"
 				><textPath startOffset="-71" xlink:href="#path-4"
@@ -54,7 +54,7 @@
 			y="115.071" />
 		<a href="/projects">
 			<text
-				style="font-family: &quot;Josefin Sans&quot;; font-size: 25px; letter-spacing: 1.9px; white-space: pre;"
+				style="letter-spacing: 1.9px; white-space: pre;"
 				x="348.795"
 				y="99.681">
 				<textPath startOffset="-221" xlink:href="#path-4"
@@ -71,7 +71,7 @@
 			></a>
 		<a href="/writing">
 			<text
-				style="font-family: &quot;Josefin Sans&quot;; font-size: 25px; letter-spacing: 1.9px; white-space: pre;"
+				style="letter-spacing: 1.9px; white-space: pre;"
 				x="168.696"
 				y="150.97"
 				transform="matrix(1, 0, 0, 1, 0.117237, 0)"
@@ -89,7 +89,7 @@
 		</a>
 		<a href="/contact"
 			><text
-				style="font-family: &quot;Josefin Sans&quot;; font-size: 25px; letter-spacing: -0.2px; word-spacing: -2.8px; white-space: pre;"
+				style="letter-spacing: -0.2px; word-spacing: -2.8px; white-space: pre;"
 				x="68.283"
 				y="294.689"
 				><textPath startOffset="359" xlink:href="#path-4"
