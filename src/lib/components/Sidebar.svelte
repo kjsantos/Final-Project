@@ -1,46 +1,57 @@
 <script>
 	export let open = false
 
+	import Hamburger from "./Hamburger.svelte";
+
 	function handleClick() {
 		open = !open
 	}
 </script>
 
 <aside
-	class="fixed h-full top-0 w-1/6 rounded-e-lg text-gray-600 shadow-lg"
-	style="background-color: #A3B39A"
+	class="fixed h-full top-0 w-1/6 rounded-e-sm text-gray-600 shadow-sm"
+	style="background-color: #56664E"
 	class:open>
+	<Hamburger bind:open />
 	<nav class="p-12 text-xl">
 		<br />
-		<a class="block p-1 hover:text-gray-900" on:click={handleClick} href="/"
-			>Home</a>
+		<a 
+			class="block p-1 hover:text-gray-900" 
+			on:click={handleClick} 
+			href="/"
+			data-sveltekit-reload>Home</a>
 		<a
 			class="block p-1 hover:text-gray-900"
 			on:click={handleClick}
-			href="/about">About</a>
+			href="/about"
+			data-sveltekit-preload-data>About</a>
 		<a
 			class="block p-1 hover:text-gray-900"
 			on:click={handleClick}
-			href="/projects">Projects</a>
+			href="/projects"
+			data-sveltekit-preload-data>Projects</a>
 		<a
 			class="block p-1 hover:text-gray-900"
 			on:click={handleClick}
-			href="/writing">Writing</a>
+			href="/writing"
+			data-sveltekit-preload-data>Writing</a>
 		<a
 			class="block p-1 hover:text-gray-900"
 			on:click={handleClick}
-			href="/contact">Contact</a>
+			href="/contact"
+			data-sveltekit-preload-data>Contact</a>
 	</nav>
 </aside>
 
 <style>
 	aside {
 		left: -100%;
-		transition: left 0.3s ease-in-out;
+		transition: left 0.1s ease-in-out;
 	}
 
 	.open {
 		position: fixed;
-		left: 0;
+		left: 0%;
+		z-index: 55;
 	}
 </style>

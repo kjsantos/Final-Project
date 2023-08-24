@@ -2,12 +2,10 @@
 	import '../app.css'
 	import Navbar from '$lib/components/Navbar.svelte'
 	import Sidebar from '$lib/components/Sidebar.svelte'
-	import Ticker from '$lib/components/Ticker.svelte'
 
 	export let open = false
 </script>
 
-<Ticker bind:open />
 <Sidebar bind:open />
 <Navbar bind:sidebar={open} />
 
@@ -48,6 +46,14 @@
 			font-family: 'josefin-sans', sans-serif;
 		}
 
+		text {
+			fill: #234c2e;
+		}
+
+		text:hover {
+			fill: #aee5bd;
+		}
+
 		b {
 			padding-top: 20px;
 			color: slategrey;
@@ -67,8 +73,14 @@
 			font-family: 'clarendon-urw-extra-wide', serif;
 		}
 		body {
+			top: -250px;
 			background-color: #a3b39a;
 			padding: 0;
+			font-size: 35px;
+			font-family: 'josefin-sans', sans-serif;
+		}
+		path {
+			fill: transparent;
 		}
 		.box {
 			background-color: #9ab3ae;

@@ -3,23 +3,25 @@
 	import { posts } from '$lib/writing.js'
 </script>
 
-<main>
-	<div class="mt-6 overflow-hidden">
-		<section class="mx-48">
+<main class=" mt-20 scroll-pt-32">
+	<div class="scroll-pt-32">
+		<section>
 			<Saos
-				animation={'fade-in .2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both'}
-				once={true}>
+				animation={'fade-in .3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both'}
+				animation_out={'slide-out-fwd-center 0.3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both'}
+				top={100}
+				bottom={100}>
 				<h2 class="text-center" style="color: white">
 					Here is where Projects will go
 				</h2>
 			</Saos>
 			{#each posts as { title, subtitle, link, thumbnail }}
 				<Saos
-					animation={'fade-in .7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both'}
-					animation_out={'slide-out-fwd-center 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both'}
-					top={250}
-					bottom={250}>
-					<a href={link}>
+					animation={'fade-in .3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both'}
+					animation_out={'slide-out-fwd-center 0.3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both'}
+					top={80}
+					bottom={100}>
+					<a href={link} data-sveltekit-reload>
 						<div
 							class="my-10 flex content-center rounded-t-3xl rounded-bl-3xl p-8 shadow-2xl shadow-slate-800"
 							style="background-color: #FFF5F5">
@@ -45,7 +47,6 @@
 
 <style>
 	section {
-		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: space-around;
@@ -53,7 +54,7 @@
 		margin-left: 22rem;
 		max-width: 76rem;
 		overflow-x: visible;
-		overflow-y: visible;
+		scroll-padding-top: 10%;
 	}
 
 	a {

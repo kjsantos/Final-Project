@@ -3,7 +3,7 @@
 </script>
 
 <button
-	class=" ml-2 cursor-pointer pr-8 pt-1 text-green-100 hover:text-gray-700 focus:outline-none"
+	class="ml-2 cursor-pointer align-middle pt-2 text-green-100 hover:text-gray-700 focus:outline-none"
 	class:open
 	on:click={() => (open = !open)}>
 	<svg width="50" height="50">
@@ -24,6 +24,7 @@
 	svg {
 		transition: transform 0.3s ease-in-out;
 		min-height: 50px;
+		align-items: center;
 	}
 
 	svg line {
@@ -33,7 +34,7 @@
 	}
 
 	button {
-		z-index: 20;
+		z-index: 100;
 	}
 
 	.open svg {
