@@ -48,6 +48,8 @@
 
 		text {
 			fill: #234c2e;
+			font-size: 25px;
+			font-family: 'josefin-sans', sans-serif;
 		}
 
 		text:hover {
