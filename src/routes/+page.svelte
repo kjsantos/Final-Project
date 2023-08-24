@@ -22,7 +22,7 @@
 				<animateMotion
 					path="M -196.044 -99.453 L -128.541 -77.858"
 					calcMode="linear"
-					begin="-0s"
+					begin="0s"
 					dur="3.96s"
 					fill="freeze" />
 			</path>
@@ -37,17 +37,15 @@
 				x="70.6098"
 				y="303.157"
 				><textPath startOffset="-71" xlink:href="#path-4"
-					>About</textPath
-				><animate
-					attributeName="fill-opacity"
-					values="0;0;1"
-					dur="1.99s"
-					fill="freeze"
-					calcMode="spline"
-					keyTimes="0; 0.269416; 1"
-					keySplines="0.04 0 1 0; 0.11 0 0.5 0"
-					begin="-0.07s" /></text
-			></a>
+					>About<animate
+						attributeName="startOffset"
+						from="-700"
+						to="-71"
+						begin="0s"
+						calcMode="spline"
+						keySplines="1 0 1 0; 0.11 0 0.5 0"
+						dur="1.4s" /></textPath>
+			</text></a>
 		<text
 			style="white-space: pre; font-family: Arial, sans-serif; font-size: 17.9px;"
 			x="98.453"
@@ -58,16 +56,15 @@
 				x="348.795"
 				y="99.681">
 				<textPath startOffset="-221" xlink:href="#path-4"
-					>Projects</textPath
-				><animate
-					attributeName="fill-opacity"
-					values="0;0;1"
-					dur="1.95s"
-					fill="freeze"
-					keyTimes="0; 0.451337; 1"
-					calcMode="spline"
-					keySplines="1 0 1 0; 0.11 0 0.5 0"
-					begin="-0.1s" /></text
+					>Projects<animate
+						attributeName="startOffset"
+						from="-700"
+						to="-221"
+						begin="0s"
+						calcMode="spline"
+						keySplines="1 0 1 0; 0.11 0 0.5 0"
+						dur="1.4s" /></textPath
+				></text
 			></a>
 		<a href="/writing">
 			<text
@@ -76,16 +73,15 @@
 				y="150.97"
 				transform="matrix(1, 0, 0, 1, 0.117237, 0)"
 				><textPath startOffset="116" xlink:href="#path-4"
-					>Writing</textPath
-				><animate
-					attributeName="fill-opacity"
-					values="0;0;1"
-					dur="1.93s"
-					fill="freeze"
-					keyTimes="0; 0.58141; 1"
-					begin="-0.09s"
-					calcMode="spline"
-					keySplines="0 0 1 1; 0.11 0 0.5 0" /></text>
+					>Writing<animate
+						attributeName="startOffset"
+						from="-500"
+						to="116"
+						begin="0s"
+						calcMode="spline"
+						keySplines="1 0 1 0; 0.11 0 0.5 0"
+						dur="1.4s" /></textPath
+				></text>
 		</a>
 		<a href="/contact"
 			><text
@@ -93,16 +89,15 @@
 				x="68.283"
 				y="294.689"
 				><textPath startOffset="359" xlink:href="#path-4"
-					>Contact</textPath
-				><animate
-					attributeName="fill-opacity"
-					values="0;0;1"
-					dur="1.96s"
-					fill="freeze"
-					keyTimes="0; 0.64605; 1"
-					begin="-0.11s"
-					calcMode="spline"
-					keySplines="0 0 1 1; 0.11 0 0.5 0" /></text
+					>Contact<animate
+						attributeName="startOffset"
+						from="-200"
+						to="359"
+						begin="0s"
+						calcMode="spline"
+						keySplines="1 0 1 0; 0.11 0 0.5 0"
+						dur="1.4s" /></textPath
+				></text
 			></a>
 	</svg>
 </div>
