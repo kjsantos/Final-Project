@@ -2,6 +2,7 @@
 	import '../app.css'
 	import Navbar from '$lib/components/Navbar.svelte'
 	import Sidebar from '$lib/components/Sidebar.svelte'
+	import { scale } from 'svelte/transition'
 
 	export let open = false
 </script>
@@ -44,16 +45,20 @@
 			font-size: 1.75rem;
 			line-height: 2.2rem;
 			font-family: 'josefin-sans', sans-serif;
+			text-align: justify;
 		}
 
 		text {
-			fill: #234c2e;
-			font-size: 25px;
+			fill: #40ff46;
+			transition: all 0.2s ease-in-out;
+			font-size: 32.3px;
 			font-family: 'josefin-sans', sans-serif;
+			white-space: pre;
 		}
 
 		text:hover {
-			fill: #aee5bd;
+			transform: translateY(-10%);
+			text-shadow: 0 0 10px #fff, 0 0 20px #fff;
 		}
 
 		b {
@@ -74,9 +79,23 @@
 			line-height: 1.25;
 			font-family: 'clarendon-urw-extra-wide', serif;
 		}
+
+		#project {
+			color: #f1ffe8;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 1.75rem;
+			line-height: 2.2rem;
+			font-family: 'josefin-sans', sans-serif;
+			text-align: justify;
+		}
+
+		#project:hover {
+			color: #79aeb0;
+		}
+
 		body {
-			top: -250px;
-			background-color: #a3b39a;
+			background-color: #b2dbce;
 			padding: 0;
 			font-size: 35px;
 			font-family: 'josefin-sans', sans-serif;
@@ -88,10 +107,11 @@
 			background-color: #9ab3ae;
 		}
 		.ticker {
-			color: #f1ffe8;
+			color: #6f8896;
 			font-style: italic;
 			font-weight: 600;
 			font-family: 'obviously', sans-serif;
+			text-shadow: 0 0 2px #6f8896;
 		}
 		img {
 			border-color: #9ab3ae;

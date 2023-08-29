@@ -5,25 +5,21 @@
 	export let sidebar = false
 </script>
 
-<header class="fixed my-auto">
-	<nav class="flex align-bottom">
+<header class="fixed my-auto bg-transparent">
+	<nav class="flex">
 		<Hamburger bind:open={sidebar} />
 	</nav>
-
-	<Ticker bind:open={sidebar} />
 </header>
 
 <style>
 	.fixed {
-		--tw-bg-opacity: 0;
-		--tw-backdrop-blur: blur(4px);
 		display: flex;
 		position: fixed;
 		top: 0;
-		justify-content: center;
-		align-items: center;
+		justify-content: left;
+		vertical-align: center;
 		z-index: 30;
-		background-color: rgb(163, 179, 154);
+		background-color: transparent;
 		padding: 0.2rem;
 		width: 100%;
 	}

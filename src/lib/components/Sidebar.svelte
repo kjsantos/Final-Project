@@ -9,34 +9,32 @@
 </script>
 
 <aside
-	class="fixed h-full top-0 w-1/6 rounded-e-sm text-gray-600 shadow-sm"
-	style="background-color: #56664E"
+	class="fixed h-screen w-screen rounded-e-sm flex justify-center items-center text-gray-600"
+	style="background-color: #B2DBCE; z-index: 10;"
 	class:open>
-	<Hamburger bind:open />
-	<nav class="p-12 text-xl">
-		<br />
+	<nav class="p-12 text-xl my-auto h-fit ">
 		<a 
-			class="block p-1 hover:text-gray-900" 
+			class="block p-10 hover:text-gray-900 text-center" 
 			on:click={handleClick} 
 			href="/"
-			data-sveltekit-reload>Home</a>
+			data-sveltekit-preload-data>Home</a>
 		<a
-			class="block p-1 hover:text-gray-900"
-			on:click={handleClick}
+		class="block p-10 hover:text-gray-900 text-center"
+		on:click={handleClick}
 			href="/about"
 			data-sveltekit-preload-data>About</a>
 		<a
-			class="block p-1 hover:text-gray-900"
+			class="block p-10 hover:text-gray-900 text-center"
 			on:click={handleClick}
 			href="/projects"
 			data-sveltekit-preload-data>Projects</a>
 		<a
-			class="block p-1 hover:text-gray-900"
+			class="block p-10 hover:text-gray-900 text-center"
 			on:click={handleClick}
 			href="/writing"
 			data-sveltekit-preload-data>Writing</a>
-		<a
-			class="block p-1 hover:text-gray-900"
+			<a
+			class="block p-10 hover:text-gray-900 text-center"
 			on:click={handleClick}
 			href="/contact"
 			data-sveltekit-preload-data>Contact</a>
@@ -45,13 +43,14 @@
 
 <style>
 	aside {
-		left: -100%;
-		transition: left 0.1s ease-in-out;
+		top: -100%;
+		transition: top 0.3s ease-in;
 	}
 
 	.open {
-		position: fixed;
-		left: 0%;
-		z-index: 55;
+		position: absolute;
+		top: 0%;
+		text-justify: center;
+		transition: top 0.5s ease-in;
 	}
 </style>

@@ -48,7 +48,7 @@
 		right: 1rem;
 		bottom: 1rem;
 		flex: content;
-		z-index: 999;
+		z-index: 99;
 		transition-duration: 300ms;
 		cursor: pointer;
 		border: none;

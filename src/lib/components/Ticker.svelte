@@ -1,10 +1,9 @@
 <script>
 	import Marquee from 'svelte-fast-marquee'
 	let play = true
-	export let open = false
 </script>
 
-<aside class="block pl-3 hover:text-gray-900" class:open>
+<aside class="my-auto flex overflow-visible pl-20 pt-1">
 	<Marquee speed={40} {play}>
 		<p class="ticker text-right">
 			&nbsp;&nbsp;This website was made using SvelteKit and Tailwind.css
@@ -22,14 +21,8 @@
 
 <style lang="postcss">
 	aside {
-		left: 100%;
+		left: 10%;
 		transition: right 0.3s ease-in-out;
 		max-height: fit-content;
-	}
-
-	.open {
-		left: 12%;
-		transition: right .3s ease-in-out;
-		position: relative;
 	}
 </style>

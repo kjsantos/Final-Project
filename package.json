@@ -32,6 +32,7 @@
 	"type": "module",
 	"dependencies": {
 		"svelte-fast-marquee": "^0.4.1",
-		"svelte-inview": "^4.0.1"
+		"svelte-inview": "^4.0.1",
+		"tw-elements": "^1.0.0-rc.1"
 	}
 }

@@ -6,10 +6,10 @@
 
 <div class="flex-column container mx-auto w-3/5">
 	<br /><br />
-	<h1>{data.post.title}</h1>
-	<br /><br />
-	<img class="mx-auto" src={data.post.image} alt="" />
-	<br />
+	<div class="flex-column container w-1/2">
+		<h1>{data.post.title}</h1>
+		<img src={data.post.image} alt="" />
+	</div>
 	{@html data.post.content}
 	<br /><br />
 </div>

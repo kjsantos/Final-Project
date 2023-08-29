@@ -3,7 +3,7 @@
 </script>
 
 <button
-	class="ml-2 cursor-pointer align-middle pt-2 text-green-100 hover:text-gray-700 focus:outline-none"
+	class="ml-2 cursor-pointer my-auto text-[#6f8896] hover:text-gray-700 focus:outline-none z-50"
 	class:open
 	on:click={() => (open = !open)}>
 	<svg width="50" height="50">
@@ -13,7 +13,7 @@
 			cy="22"
 			r="20"
 			fill="#A3B39A"
-			opacity=".4" />
+			opacity="0" />
 		<line id="top" x1="6" y1="14" x2="32" y2="14" />
 		<line id="middle" x1="6" y1="22" x2="24" y2="22" />
 		<line id="bottom" x1="6" y1="30" x2="32" y2="30" />

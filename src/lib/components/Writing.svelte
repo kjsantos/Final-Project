@@ -3,14 +3,14 @@
 	import { posts } from '$lib/writing.js'
 </script>
 
-<main class=" mt-20 scroll-pt-32">
-	<div class="scroll-pt-32">
+<main class=" mt-20">
+	<div>
 		<section>
 			<Saos
 				animation={'fade-in .3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both'}
 				animation_out={'slide-out-fwd-center 0.3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both'}
 				top={100}
-				bottom={100}>
+				bottom={120}>
 				<h2 class="text-center" style="color: white">
 					Here is where Projects will go
 				</h2>
@@ -20,7 +20,7 @@
 					animation={'fade-in .3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both'}
 					animation_out={'slide-out-fwd-center 0.3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both'}
 					top={80}
-					bottom={100}>
+					bottom={120}>
 					<a href={link} data-sveltekit-reload>
 						<div
 							class="my-10 flex content-center rounded-t-3xl rounded-bl-3xl p-8 shadow-2xl shadow-slate-800"
