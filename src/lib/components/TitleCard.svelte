@@ -11,7 +11,7 @@
 <main class="m-auto">
 	{#if animate}
 		<div
-			class="container mx-auto flex w-2/3 rounded-t-3xl rounded-bl-3xl align-middle shadow-2xl shadow-slate-800"
+			class="container mx-auto flex w-3/4 rounded-t-3xl rounded-bl-3xl align-middle shadow-2xl shadow-slate-800"
 			style="background-color: #FFF5F5">
 			<img
 				class=" mx-6 my-auto flex h-64 rounded-full border-8 shadow-gray-400"
@@ -27,11 +27,10 @@
 						out:fade={{ duration: 100 }}>
 						Kailen Santos
 					</h1>
-					<br />
 					<p
 						in:fly={{ y: 200, duration: 1500, delay: 50 }}
 						out:fade={{ duration: 80 }}
-						style="font-size: 1.25em;">
+						style="font-size: .8em; line-height: 1.2em; padding-top: .75em;">
 						Hi there! I am a data analyst with a passion for data
 						visualization and data storytelling. As a Master's
 						Student at the Pratt Institute School of Information, I

@@ -2,7 +2,6 @@
 	import '../app.css'
 	import Navbar from '$lib/components/Navbar.svelte'
 	import Sidebar from '$lib/components/Sidebar.svelte'
-	import { scale } from 'svelte/transition'
 
 	export let open = false
 </script>
@@ -48,7 +47,7 @@
 			text-align: justify;
 		}
 
-		text {
+		text.menu {
 			fill: #40ff46;
 			transition: all 0.2s ease-in-out;
 			font-size: 32.3px;
@@ -56,8 +55,7 @@
 			white-space: pre;
 		}
 
-		text:hover {
-			transform: translateY(-10%);
+		.menu:hover {
 			text-shadow: 0 0 10px #fff, 0 0 20px #fff;
 		}
 
@@ -78,6 +76,27 @@
 			font-size: 1.75rem;
 			line-height: 1.25;
 			font-family: 'clarendon-urw-extra-wide', serif;
+		}
+
+		/* The typing effect */
+		@keyframes typing {
+			from {
+				width: 0;
+			}
+			to {
+				width: 100%;
+			}
+		}
+
+		/* The typewriter cursor effect */
+		@keyframes blink-caret {
+			from,
+			to {
+				border-color: transparent;
+			}
+			50% {
+				border-color: orange;
+			}
 		}
 
 		#project {
@@ -101,7 +120,7 @@
 			font-family: 'josefin-sans', sans-serif;
 		}
 		path {
-			fill: transparent;
+			fill-opacity: 1;
 		}
 		.box {
 			background-color: #9ab3ae;

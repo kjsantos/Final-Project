@@ -11,7 +11,7 @@
 				animation_out={'slide-out-fwd-center 0.3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both'}
 				top={100}
 				bottom={120}>
-				<h2 class="text-center" style="color: white">
+				<h2 class="text-right" style="color: white">
 					Here is where Projects will go
 				</h2>
 			</Saos>
@@ -23,7 +23,7 @@
 					bottom={120}>
 					<a href={link} data-sveltekit-reload>
 						<div
-							class="my-10 flex content-center rounded-t-3xl rounded-bl-3xl p-8 shadow-2xl shadow-slate-800"
+							class="my-1 flex content-center rounded-t-3xl rounded-bl-3xl p-8 shadow-2xl shadow-slate-800"
 							style="background-color: #FFF5F5">
 							<div class="justify-items-left container pr-20">
 								<div class="pl-26">
@@ -50,7 +50,7 @@
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: space-around;
-		margin-right: 22rem;
+		margin-right: 16rem;
 		margin-left: 22rem;
 		max-width: 76rem;
 		overflow-x: visible;
