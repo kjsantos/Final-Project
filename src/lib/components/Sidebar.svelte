@@ -1,7 +1,7 @@
 <script>
 	export let open = false
 
-	import Hamburger from "./Hamburger.svelte";
+	import Hamburger from './Hamburger.svelte'
 
 	function handleClick() {
 		open = !open
@@ -9,20 +9,26 @@
 </script>
 
 <aside
-	class="fixed h-screen w-screen rounded-e-sm flex justify-center items-center text-gray-600"
+	class="fixed flex h-screen w-screen items-center justify-center rounded-e-sm text-gray-600"
 	style="background-color: #B2DBCE; z-index: 10;"
 	class:open>
-	<nav class="p-12 text-xl my-auto h-fit ">
-		<a 
-			class="block p-10 hover:text-gray-900 text-center" 
-			on:click={handleClick} 
+	<nav class="my-auto h-fit p-12 text-xl">
+		<a
+			class="block p-10 text-center hover:text-gray-900"
+			on:click={handleClick}
+			href="/pratt_portfolio"
+			data-sveltekit-preload-data>Pratt Portfolio</a>
+		<!--<a
+			class="block p-10 text-center hover:text-gray-900"
+			on:click={handleClick}
 			href="/"
 			data-sveltekit-preload-data>Home</a>
 		<a
-		class="block p-10 hover:text-gray-900 text-center"
-		on:click={handleClick}
+			class="block p-10 text-center hover:text-gray-900"
+			on:click={handleClick}
 			href="/about"
 			data-sveltekit-preload-data>About</a>
+
 		<a
 			class="block p-10 hover:text-gray-900 text-center"
 			on:click={handleClick}
@@ -37,7 +43,7 @@
 			class="block p-10 hover:text-gray-900 text-center"
 			on:click={handleClick}
 			href="/contact"
-			data-sveltekit-preload-data>Contact</a>
+			data-sveltekit-preload-data>Contact</a>-->
 	</nav>
 </aside>
 
@@ -50,7 +56,7 @@
 	.open {
 		position: absolute;
 		top: 0%;
-		text-justify: center;
 		transition: top 0.5s ease-in;
+		text-justify: center;
 	}
 </style>

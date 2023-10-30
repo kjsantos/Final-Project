@@ -38,7 +38,7 @@
 		}
 
 		p.blog {
-			color: white;
+			color: black;
 			font-style: normal;
 			font-weight: 400;
 			font-size: 1.75rem;
@@ -76,6 +76,19 @@
 			font-size: 1.75rem;
 			line-height: 1.25;
 			font-family: 'clarendon-urw-extra-wide', serif;
+		}
+		a.link {
+			color: #f1ffe8;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 1.75rem;
+			line-height: 2.2rem;
+			font-family: 'josefin-sans', sans-serif;
+			text-align: justify;
+		}
+
+		.link:hover {
+			color: #79aeb0;
 		}
 
 		/* The typing effect */
