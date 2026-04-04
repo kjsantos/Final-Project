@@ -9,33 +9,33 @@
 </script>
 
 <aside
-	class="fixed flex h-screen w-screen items-center justify-center rounded-e-sm text-gray-600"
+	class="fixed flex h-screen w-screen items-center justify-center rounded-e-sm text-gray-800"
 	style="background-color: #B2DBCE; z-index: 10;"
 	class:open>
 	<nav class="my-auto h-fit p-12 text-xl">
 		<a
 			class="block p-10 text-center hover:text-gray-900"
-			on:click={handleClick}
+			onclick={handleClick}
 			href="/"
 			data-sveltekit-preload-data>Home</a>
 		<a
 			class="block p-10 text-center hover:text-gray-900"
-			on:click={handleClick}
+			onclick={handleClick}
 			href="/about"
 			data-sveltekit-preload-data>About</a>
 		<a
 			class="block p-10 hover:text-gray-900 text-center"
-			on:click={handleClick}
+			onclick={handleClick}
 			href="/work"
 			data-sveltekit-preload-data>Work</a>
 		<a
 			class="block p-10 hover:text-gray-900 text-center"
-			on:click={handleClick}
+			onclick={handleClick}
 			href="/writing"
 			data-sveltekit-preload-data>Writing</a>
 		<a
 			class="block p-10 hover:text-gray-900 text-center"
-			on:click={handleClick}
+			onclick={handleClick}
 			href="/contact"
 			data-sveltekit-preload-data>Contact</a>
 	</nav>

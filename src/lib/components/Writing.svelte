@@ -18,7 +18,8 @@ rel={link.startsWith('http') ? 'noopener noreferrer' : undefined}>
 <div class="card-thumb">
 <img
 src={thumbnail}
-alt="Thumbnail for {title}" />
+alt="Thumbnail for {title}"
+title={title} />
 </div>
 <div class="card-body">
 <h2>{title}</h2>
