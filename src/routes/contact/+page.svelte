@@ -38,7 +38,7 @@
 		font-family: 'clarendon-urw-extra-wide', serif;
 		font-size: 3.5rem;
 		font-weight: 200;
-		color: #9ab3ae;
+		color: #3d6258;
 		line-height: 1.2;
 		margin-bottom: 1rem;
 	}
@@ -46,7 +46,7 @@
 	.subtitle {
 		font-family: 'josefin-sans', sans-serif;
 		font-size: 1rem;
-		color: #8a9ba8;
+		color: #4a6a62;
 		line-height: 1.6;
 		font-weight: 400;
 		margin-bottom: 2rem;
@@ -57,7 +57,7 @@
 		font-family: 'josefin-sans', sans-serif;
 		font-size: 1.1rem;
 		font-weight: 600;
-		color: #9ab3ae;
+		color: #3d6258;
 		text-decoration: none;
 		border-bottom: 2px solid transparent;
 		transition: border-color 0.2s ease, color 0.2s ease;
@@ -65,8 +65,8 @@
 	}
 
 	.email-link:hover {
-		color: #6a8a7e;
-		border-color: #9ab3ae;
+		color: #1e3830;
+		border-color: #3d6258;
 	}
 
 	@media (max-width: 600px) {

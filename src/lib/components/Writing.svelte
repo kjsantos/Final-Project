@@ -78,7 +78,7 @@ flex: 1;
 font-family: 'clarendon-urw-extra-wide', serif;
 font-size: 1.3rem;
 font-weight: 400;
-color: #6a8a7e;
+color: #3d6258;
 line-height: 1.3;
 margin-bottom: 0.5rem;
 }
@@ -86,8 +86,8 @@ margin-bottom: 0.5rem;
 .card-body p {
 font-family: 'josefin-sans', sans-serif;
 font-size: 0.9rem;
-color: #8a9ba8;
-line-height: 1.5;
+color: #4a6a62;
+line-height: 1.55;
 font-weight: 400;
 }
 

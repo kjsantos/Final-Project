@@ -5,7 +5,7 @@
 
 /* ─── Global typography ──────────────────────────────────────────── */
 h1 {
-	color: #9ab3ae;
+	color: #2c4a42;
 	font-style: normal;
 	font-weight: 200;
 	font-size: 4.75rem;
@@ -14,7 +14,7 @@ h1 {
 }
 
 h2 {
-	color: #9ab3af;
+	color: #3d6258;
 	font-style: normal;
 	font-weight: 200;
 	font-size: 2.75rem;
@@ -23,7 +23,7 @@ h2 {
 }
 
 p {
-	color: #abb3ae;
+	color: #2c4a42;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 1rem;

@@ -3,7 +3,7 @@ import { fade } from 'svelte/transition'
 </script>
 
 <svelte:head>
-<title> Kailen Santos</title>About 
+<title>About — Kailen Santos</title>
 </svelte:head>
 
 <main class="min-h-screen pt-20 pb-16" in:fade={{ duration: 400 }}>
@@ -59,7 +59,7 @@ When I'm not in the data, I write. You can find some of that work in the
 font-family: 'clarendon-urw-extra-wide', serif;
 font-size: 4rem;
 font-weight: 200;
-color: #9ab3ae;
+color: #2c4a42;
 line-height: 1.2;
 margin-bottom: 1.5rem;
 }
@@ -89,7 +89,7 @@ flex-shrink: 0;
 font-family: 'clarendon-urw-extra-wide', serif;
 font-size: 1.75rem;
 font-weight: 200;
-color: #9ab3ae;
+color: #3d6258;
 line-height: 1.2;
 margin-bottom: 0.35rem;
 }
@@ -97,7 +97,7 @@ margin-bottom: 0.35rem;
 .tagline {
 font-family: 'josefin-sans', sans-serif;
 font-size: 0.95rem;
-color: #8a9ba8;
+color: #4a6a62;
 font-weight: 600;
 }
 
@@ -112,7 +112,7 @@ padding: 2rem 2.5rem;
 .about-body p {
 font-family: 'josefin-sans', sans-serif;
 font-size: 1rem;
-color: #8a9ba8;
+color: #4a6a62;
 line-height: 1.8;
 font-weight: 400;
 margin-bottom: 1.25rem;
@@ -123,7 +123,7 @@ margin-bottom: 0;
 }
 
 .about-body a {
-color: #9ab3ae;
+color: #3d6258;
 font-size: inherit;
 font-weight: 600;
 text-decoration: underline;
@@ -131,7 +131,7 @@ text-underline-offset: 3px;
 }
 
 .about-body a:hover {
-color: #6a8a7e;
+color: #1e3830;
 }
 
 @media (max-width: 560px) {

@@ -1,5 +1,6 @@
 <script>
 	import { projects } from '$lib/work.js'
+	import { techAlt } from '$lib/techNames.js'
 	import { fade } from 'svelte/transition'
 	import GotoTop from '$lib/components/GotoTop.svelte'
 
@@ -20,7 +21,7 @@
 <main class="min-h-screen pt-20 pb-16" in:fade={{ duration: 400 }}>
 	<section class="mx-auto max-w-6xl px-6">
 		<h1 class="mb-2">Work</h1>
-		<p class="mb-10" style="font-size: 1.1rem; color: #9ab3ae;">
+		<p class="mb-10" style="font-size: 1.1rem; color: #2c4a42; font-weight: 600;">
 			A selection of projects spanning data visualization, web development, machine learning, and UX research.
 		</p>
 
@@ -67,7 +68,7 @@
 								{#each project.tech as icon}
 									<img
 										src="/images/{icon}"
-										alt={icon.replace(/-logo\.(png|svg)$/, '')}
+										alt={techAlt(icon)}
 										class="h-7 w-auto opacity-70 group-hover:opacity-100 transition-opacity" />
 								{/each}
 							</div>
@@ -87,7 +88,7 @@
 
 <style lang="postcss">
 	h1 {
-		color: #9ab3ae;
+		color: #2c4a42;
 		font-family: 'clarendon-urw-extra-wide', serif;
 		font-size: 4rem;
 		font-weight: 200;
@@ -106,16 +107,17 @@
 		font-family: 'josefin-sans', sans-serif;
 		font-size: 0.875rem;
 		font-weight: 600;
-		color: #9ab3ae;
+		color: #2c4a42;
 		background: transparent;
 		cursor: pointer;
-		transition: background-color 0.2s ease, color 0.2s ease;
+		transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 	}
 
 	.filter-btn:hover,
 	.filter-btn.active {
-		background-color: #9ab3ae;
-		color: #f1ffe8;
+		background-color: #3d6258;
+		border-color: #3d6258;
+		color: #FFF5F5;
 	}
 
 	/* Cards */
@@ -165,7 +167,7 @@
 		font-family: 'clarendon-urw-extra-wide', serif;
 		font-size: 1.25rem;
 		font-weight: 400;
-		color: #6a8a7e;
+		color: #3d6258;
 		line-height: 1.3;
 		margin-bottom: 0.5rem;
 	}
@@ -173,8 +175,8 @@
 	.card-desc {
 		font-family: 'josefin-sans', sans-serif;
 		font-size: 0.875rem;
-		color: #8a9ba8;
-		line-height: 1.5;
+		color: #4a6a62;
+		line-height: 1.55;
 		font-weight: 400;
 	}
 
@@ -186,8 +188,9 @@
 		text-transform: uppercase;
 		padding: 0.2rem 0.6rem;
 		border-radius: 4px;
-		background-color: #e8ede8;
-		color: #6a8a7e;
+		background-color: rgba(61, 98, 88, 0.12);
+		color: #3d6258;
+		border: 1px solid rgba(61, 98, 88, 0.25);
 	}
 
 	@media (max-width: 768px) {

@@ -5,7 +5,7 @@ import { fade } from 'svelte/transition'
 </script>
 
 <svelte:head>
-<title> Kailen Santos</title>Writing 
+<title>Writing — Kailen Santos</title>
 </svelte:head>
 
 <main class="min-h-screen pt-20 pb-16" in:fade={{ duration: 400 }}>
@@ -24,7 +24,7 @@ import { fade } from 'svelte/transition'
 font-family: 'clarendon-urw-extra-wide', serif;
 font-size: 4rem;
 font-weight: 200;
-color: #9ab3ae;
+color: #2c4a42;
 line-height: 1.2;
 margin-bottom: 0.5rem;
 }
@@ -32,7 +32,7 @@ margin-bottom: 0.5rem;
 .page-sub {
 font-family: 'josefin-sans', sans-serif;
 font-size: 1.1rem;
-color: #9ab3ae;
+color: #3d6258;
 margin-bottom: 2.5rem;
 font-weight: 400;
 }
