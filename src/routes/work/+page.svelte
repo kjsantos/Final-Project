@@ -165,7 +165,7 @@
 		font-family: 'clarendon-urw-extra-wide', serif;
 		font-size: 1.25rem;
 		font-weight: 400;
-		color: #4a5568;
+		color: #6a8a7e;
 		line-height: 1.3;
 		margin-bottom: 0.5rem;
 	}
@@ -173,7 +173,7 @@
 	.card-desc {
 		font-family: 'josefin-sans', sans-serif;
 		font-size: 0.875rem;
-		color: #718096;
+		color: #8a9ba8;
 		line-height: 1.5;
 		font-weight: 400;
 	}
