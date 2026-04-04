@@ -11,16 +11,18 @@ export const projects = [
 		description:
 			'An interactive public dashboard for tracking MTA capital projects, budgets, and geographic investment data across all transit divisions.',
 		link: 'https://capitaldashboard.mta.info',
-		thumbnail: '/images/placeholder-capital-dashboard.svg',
+		thumbnail: '/images/capital-dashboard-screenshot.png',
 		tags: ['Data Visualization', 'Web Development'],
 		tech: ['nextjs-logo.svg', 'typescript-logo.svg', 'mantine-logo.svg', 'openlayers-logo.svg', 'plotly-logo.png'],
-		content: `<p class="blog">At the MTA, I contribute to tools that make capital planning data accessible to the public. The Capital Plan Dashboard is an interactive web application enabling transit riders, planners, and government stakeholders to explore the MTA's capital investment portfolio — the organization's largest in history.
+		content: `<p class="blog">At the MTA, I contribute to tools that make capital planning data accessible to the public. The Capital Plan Dashboard is an interactive web application enabling transit riders, planners, and government stakeholders to explore the MTA's capital investment portfolio — the largest capital program in the agency's history.
 
 <br /><br />The dashboard surfaces data from the New York Open Data Portal, visualizing project funding, geographic distribution, and execution timelines across all MTA divisions: NYC Transit, Long Island Rail Road, Metro-North Railroad, Bridges &amp; Tunnels, and MTA Police. A core feature is the ACEP (Annual Capital Expenditure Plan) integration, which provides a granular view of how capital dollars are being spent against planned allocations at the program and project level.
 
 <br /><br />On the technical side, the application is built with <strong>Next.js</strong> and <strong>TypeScript</strong>, using <strong>Mantine</strong> as the component library and <strong>OpenLayers</strong> for interactive mapping with live ArcGIS layer integration. Budget charts are rendered via <strong>Plotly.js</strong> and <strong>Recharts</strong>, while <strong>Arquero</strong> handles in-browser tabular data processing for fast filtering and aggregation without a backend query. State is managed with <strong>Jotai</strong>, and the site is deployed on <strong>Netlify</strong>.
 
-<br /><br />The dashboard is publicly available at <a class="link" href="https://capitaldashboard.mta.info" target="_blank" rel="noopener noreferrer">capitaldashboard.mta.info</a>.</p>`,
+<br /><br />The dashboard launched to the public and was featured at a press conference alongside MTA leadership, making it one of the most visible deliverables our team has shipped.</p>
+<img src="/images/capital-dashboard-press.png" alt="Capital Program Dashboard press conference with MTA leadership" style="width:100%;border-radius:0.75rem;margin:1.5rem 0;" />
+<p class="blog">The dashboard is publicly available at <a class="link" href="https://capitaldashboard.mta.info" target="_blank" rel="noopener noreferrer">capitaldashboard.mta.info</a>.</p>`,
 	},
 
 	{
@@ -29,16 +31,16 @@ export const projects = [
 		description:
 			'Public-facing website for the MTA\'s 20-Year Needs Assessment, providing New Yorkers structured access to transit infrastructure planning documents.',
 		link: 'https://future.mta.info',
-		thumbnail: '/images/placeholder-20yn.svg',
+		thumbnail: '/images/20yn-screenshot.png',
 		tags: ['Web Development'],
 		tech: ['react-logo.svg', 'javascript-logo.png', 'bootstrap-logo.svg'],
-		content: `<p class="blog">The MTA's 20-Year Needs Assessment is a comprehensive planning document identifying the capital investment required to maintain and improve New York's transit infrastructure over the next two decades. I worked on the public-facing website that gives New Yorkers and policymakers direct access to the full assessment and its supporting materials.
+		content: `<p class="blog">The MTA's 20-Year Needs Assessment is a comprehensive planning document that defines the capital investment required to maintain and modernize New York's transit network over the next two decades. The public-facing website at <a class="link" href="https://future.mta.info" target="_blank" rel="noopener noreferrer">future.mta.info</a> was originally built by an external consultant, HDR, using jQuery and vanilla JavaScript. When the contract ended and the site became our team's product to own, I took on the challenge of migrating it entirely in-house.
 
-<br /><br />The site provides structured navigation to the full assessment report and division-specific appendices covering NYC Transit, Long Island Rail Road, Metro-North Railroad, Bridges &amp; Tunnels, and MTA Police. Each section provides context on the scale of investment needed — representing hundreds of billions of dollars in deferred maintenance, system improvement, and expansion.
+<br /><br />As the only person on my unit with web development experience, I was responsible for more than just code — I had to manage hosting, deployment, and ongoing maintenance, and navigate the MTA's internal web infrastructure to find a sustainable path forward. This meant collaborating across departments and eventually working with the MTA's web team to bring the site onto the <strong>mta.info</strong> domain, a meaningful step toward treating our public communications as a first-class product rather than a contractor deliverable.
 
-<br /><br />Built with <strong>React</strong> and <strong>React Router</strong>, the site is deployed on <strong>Netlify</strong> with a custom Netlify plugin enforcing strict Content Security Policy headers. The CSP configuration whitelists only trusted scripts (Google Analytics, GTM, *.mta.info) with nonce-based script validation — a meaningful step toward XSS protection on a high-traffic government-adjacent website.
+<br /><br />To meet the web team's development standards, I taught myself <strong>React</strong> and the broader modern JavaScript ecosystem from scratch. The original site had a distinct feel — a layered navigation structure and animated slider-based storytelling — and recreating that faithfully in React required evaluating many libraries and making deliberate component architecture choices. The result is a maintainable, standardized site that any web-familiar team member can now update or extend, without dependency on outside vendors.
 
-<br /><br />The site is live at <a class="link" href="https://future.mta.info" target="_blank" rel="noopener noreferrer">future.mta.info</a>.</p>`,
+<br /><br />Built with <strong>React</strong> and <strong>React Router</strong>, the site is deployed on <strong>Netlify</strong> with a custom plugin enforcing strict Content Security Policy headers. The CSP configuration whitelists only trusted scripts (Google Analytics, GTM, *.mta.info) with nonce-based validation — a meaningful step toward XSS protection on a high-traffic government-adjacent website.</p>`,
 	},
 
 	{
