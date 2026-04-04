@@ -13,7 +13,7 @@ export const projects = [
 		link: 'https://capitaldashboard.mta.info',
 		thumbnail: '/images/placeholder-capital-dashboard.svg',
 		tags: ['Data Visualization', 'Web Development'],
-		tech: ['javascript-logo.png', 'html-logo.png'],
+		tech: ['nextjs-logo.svg', 'typescript-logo.svg', 'mantine-logo.svg', 'openlayers-logo.svg', 'plotly-logo.png'],
 		content: `<p class="blog">At the MTA, I contribute to tools that make capital planning data accessible to the public. The Capital Plan Dashboard is an interactive web application enabling transit riders, planners, and government stakeholders to explore the MTA's capital investment portfolio — the organization's largest in history.
 
 <br /><br />The dashboard surfaces data from the New York Open Data Portal, visualizing project funding, geographic distribution, and execution timelines across all MTA divisions: NYC Transit, Long Island Rail Road, Metro-North Railroad, Bridges &amp; Tunnels, and MTA Police. A core feature is the ACEP (Annual Capital Expenditure Plan) integration, which provides a granular view of how capital dollars are being spent against planned allocations at the program and project level.
@@ -31,7 +31,7 @@ export const projects = [
 		link: 'https://future.mta.info',
 		thumbnail: '/images/placeholder-20yn.svg',
 		tags: ['Web Development'],
-		tech: ['javascript-logo.png', 'html-logo.png'],
+		tech: ['react-logo.svg', 'javascript-logo.png', 'bootstrap-logo.svg'],
 		content: `<p class="blog">The MTA's 20-Year Needs Assessment is a comprehensive planning document identifying the capital investment required to maintain and improve New York's transit infrastructure over the next two decades. I worked on the public-facing website that gives New Yorkers and policymakers direct access to the full assessment and its supporting materials.
 
 <br /><br />The site provides structured navigation to the full assessment report and division-specific appendices covering NYC Transit, Long Island Rail Road, Metro-North Railroad, Bridges &amp; Tunnels, and MTA Police. Each section provides context on the scale of investment needed — representing hundreds of billions of dollars in deferred maintenance, system improvement, and expansion.

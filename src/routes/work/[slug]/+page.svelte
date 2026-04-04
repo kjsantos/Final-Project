@@ -54,7 +54,7 @@
 				{#each data.project.tech as icon}
 					<img
 						src="/images/{icon}"
-						alt={icon.replace('-logo.png', '')}
+						alt={icon.replace(/-logo\.(png|svg)$/, '')}
 						class="h-10 w-auto opacity-70" />
 				{/each}
 			</div>
