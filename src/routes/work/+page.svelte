@@ -49,6 +49,7 @@
 						<img
 							src={project.thumbnail}
 							alt="Preview of {project.title}"
+							title={project.title}
 							class="card-image" />
 					</div>
 					<div class="card-body">
@@ -69,6 +70,7 @@
 									<img
 										src="/images/{icon}"
 										alt={techAlt(icon)}
+										title={techAlt(icon)}
 										class="h-7 w-auto opacity-70 group-hover:opacity-100 transition-opacity" />
 								{/each}
 							</div>
