@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#0f1117"/>
+  <text x="400" y="48" font-family="monospace" font-size="13" fill="#22c55e" text-anchor="middle">Model  NYC Street Safety Score Prediction</text>Training 
+  <rect x="40" y="70" width="220" height="340" rx="8" fill="#1c1f2e"/>
+  <text x="150" y="100" font-family="monospace" font-size="11" fill="#8b8fa8" text-anchor="middle">INPUT FEATURES</text>
+  <rect x="60" y="112" width="180" height="22" rx="4" fill="#2d3250"/>
+  <text x="150" y="127" font-family="monospace" font-size="10" fill="#60a5fa" text-anchor="middle">lat / lng / zip</text>
+  <rect x="60" y="140" width="180" height="22" rx="4" fill="#2d3250"/>
+  <text x="150" y="155" font-family="monospace" font-size="10" fill="#60a5fa" text-anchor="middle">incidents_per_hour</text>
+  <rect x="60" y="168" width="180" height="22" rx="4" fill="#2d3250"/>
+  <text x="150" y="183" font-family="monospace" font-size="10" fill="#60a5fa" text-anchor="middle">unique_incidents_count</text>
+  <rect x="60" y="196" width="180" height="22" rx="4" fill="#2d3250"/>
+  <text x="150" y="211" font-family="monospace" font-size="10" fill="#60a5fa" text-anchor="middle">injury / death counts</text>
+  <rect x="60" y="224" width="180" height="22" rx="4" fill="#2d3250"/>
+  <text x="150" y="239" font-family="monospace" font-size="10" fill="#60a5fa" text-anchor="middle">complaint_type</text>
+  <rect x="60" y="252" width="180" height="22" rx="4" fill="#2d3250"/>
+  <text x="150" y="267" font-family="monospace" font-size="10" fill="#60a5fa" text-anchor="middle">descriptor / status</text>
+  <rect x="290" y="70" width="220" height="340" rx="8" fill="#1c1f2e"/>
+  <text x="400" y="100" font-family="monospace" font-size="11" fill="#8b8fa8" text-anchor="middle">NEURAL NETWORK</text>
+  <rect x="310" y="112" width="180" height="28" rx="4" fill="#374151"/>
+  <text x="400" y="130" font-family="monospace" font-size="10" fill="#d1d5db" text-anchor="middle">Normalization</text>
+  <rect x="310" y="152" width="180" height="28" rx="4" fill="#1e3a5f"/>
+  <text x="400" y="170" font-family="monospace" font-size="10" fill="#93c5fd" text-anchor="middle">Dense(320, relu) + L2</text>
+  <rect x="310" y="190" width="180" height="20" rx="4" fill="#312e81"/>
+  <text x="400" y="204" font-family="monospace" font-size="9" fill="#a5b4fc" text-anchor="middle">Dropout(0.3) + BatchNorm</text>
+  <rect x="310" y="220" width="180" height="28" rx="4" fill="#1e3a5f"/>
+  <text x="400" y="238" font-family="monospace" font-size="10" fill="#93c5fd" text-anchor="middle">Dense(64, relu) + L2</text>
+  <rect x="310" y="258" width="180" height="20" rx="4" fill="#312e81"/>
+  <text x="400" y="272" font-family="monospace" font-size="9" fill="#a5b4fc" text-anchor="middle">Dropout(0.3) + BatchNorm</text>
+  <rect x="310" y="288" width="180" height="28" rx="4" fill="#1e3a5f"/>
+  <text x="400" y="306" font-family="monospace" font-size="10" fill="#93c5fd" text-anchor="middle">Dense(16, relu) + L2</text>
+  <rect x="310" y="326" width="180" height="28" rx="4" fill="#14532d"/>
+  <text x="400" y="344" font-family="monospace" font-size="10" fill="#4ade80" text-anchor="middle">Dense(11, softmax)</text>
+  <rect x="540" y="70" width="220" height="340" rx="8" fill="#1c1f2e"/>
+  <text x="650" y="100" font-family="monospace" font-size="11" fill="#8b8fa8" text-anchor="middle">RESULTS</text>
+  <text x="650" y="136" font-family="monospace" font-size="11" fill="#9ca3af" text-anchor="middle">Val Accuracy</text>
+  <text x="650" y="162" font-family="monospace" font-size="32" fill="#4ade80" text-anchor="middle" font-weight="bold">96.7%</text>
+  <rect x="560" y="178" width="180" height="4" rx="2" fill="#374151"/>
+  <rect x="560" y="178" width="174" height="4" rx="2" fill="#4ade80"/>
+  <text x="650" y="218" font-family="monospace" font-size="11" fill="#9ca3af" text-anchor="middle">F1-Macro Score</text>
+  <text x="650" y="244" font-family="monospace" font-size="32" fill="#60a5fa" text-anchor="middle" font-weight="bold">0.82</text>
+  <rect x="560" y="260" width="180" height="4" rx="2" fill="#374151"/>
+  <rect x="560" y="260" width="148" height="4" rx="2" fill="#60a5fa"/>
+  <text x="650" y="300" font-family="monospace" font-size="11" fill="#9ca3af" text-anchor="middle">Training Epochs</text>
+  <text x="650" y="326" font-family="monospace" font-size="32" fill="#f59e0b" text-anchor="middle" font-weight="bold">44</text>
+  <text x="650" y="350" font-family="monospace" font-size="10" fill="#6b7280" text-anchor="middle">early stopping</text>
+  <text x="400" y="430" font-family="monospace" font-size="11" fill="#4b5563" text-anchor="middle">                     Scikit-       Python</text>learn Pandas Keras TensorFlow 
+</svg>

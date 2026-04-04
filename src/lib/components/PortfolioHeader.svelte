@@ -27,10 +27,10 @@
 			in:fly={{ y: 150, duration: 2000, delay: 50 }}
 			out:fade={{ duration: 200, delay: 200 }}>
 			<h3 class="justify-end text-right">
-				Welcome to my portfolio! Here, you can find a list of works that
-				encapsulate the learning outcomes of my time in the Data
-				Analytics and Visualization Master's Program at The Pratt
-				Institute. Scroll down to view my selected projects.
+				Welcome to my portfolio! Here, you can find a collection of work
+				spanning data engineering, visualization, web development, and
+				research — reflecting my time at the MTA and the Pratt Institute.
+				Scroll down to explore.
 			</h3>
 		</div>
 	{/if}

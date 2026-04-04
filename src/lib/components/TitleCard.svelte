@@ -31,11 +31,11 @@
 						in:fly={{ y: 200, duration: 1500, delay: 50 }}
 						out:fade={{ duration: 80 }}
 						style="font-size: .8em; line-height: 1.2em; padding-top: .75em;">
-						Hi there! I am a data analyst with a passion for data
-						visualization and data storytelling. As a Master's
-						Student at the Pratt Institute School of Information, I
-						am interested in the intersection of data, design, and
-						technology. Let's build something together!
+						Hi there! I am a data professional at the MTA with a passion for
+						data visualization and data storytelling. I hold a Master's degree
+						from the Pratt Institute School of Information, and I am interested
+						in the intersection of data, design, and technology. Let's build
+						something together!
 					</p>
 				</div>
 			</div>

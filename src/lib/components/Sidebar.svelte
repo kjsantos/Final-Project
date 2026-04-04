@@ -16,11 +16,6 @@
 		<a
 			class="block p-10 text-center hover:text-gray-900"
 			on:click={handleClick}
-			href="/pratt_portfolio"
-			data-sveltekit-preload-data>Pratt Portfolio</a>
-		<!--<a
-			class="block p-10 text-center hover:text-gray-900"
-			on:click={handleClick}
 			href="/"
 			data-sveltekit-preload-data>Home</a>
 		<a
@@ -28,22 +23,21 @@
 			on:click={handleClick}
 			href="/about"
 			data-sveltekit-preload-data>About</a>
-
 		<a
 			class="block p-10 hover:text-gray-900 text-center"
 			on:click={handleClick}
-			href="/projects"
-			data-sveltekit-preload-data>Projects</a>
+			href="/work"
+			data-sveltekit-preload-data>Work</a>
 		<a
 			class="block p-10 hover:text-gray-900 text-center"
 			on:click={handleClick}
 			href="/writing"
 			data-sveltekit-preload-data>Writing</a>
-			<a
+		<a
 			class="block p-10 hover:text-gray-900 text-center"
 			on:click={handleClick}
 			href="/contact"
-			data-sveltekit-preload-data>Contact</a>-->
+			data-sveltekit-preload-data>Contact</a>
 	</nav>
 </aside>
 

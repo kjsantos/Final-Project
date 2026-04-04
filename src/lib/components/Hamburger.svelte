@@ -5,7 +5,9 @@
 <button
 	class="ml-2 cursor-pointer my-auto text-[#6f8896] hover:text-gray-700 focus:outline-none z-50"
 	class:open
-	on:click={() => (open = !open)}>
+	onclick={() => (open = !open)}
+	aria-label="Toggle navigation menu"
+	aria-expanded={open}>
 	<svg width="50" height="50">
 		<circle
 			id="circle"

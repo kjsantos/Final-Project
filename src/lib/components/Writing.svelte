@@ -12,7 +12,7 @@
 				top={100}
 				bottom={120}>
 				<h2 class="text-right" style="color: white">
-					Here is where Projects will go
+					Writing
 				</h2>
 			</Saos>
 			{#each posts as { title, subtitle, link, thumbnail }}
@@ -21,7 +21,11 @@
 					animation_out={'slide-out-fwd-center 0.3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both'}
 					top={80}
 					bottom={120}>
-					<a href={link} data-sveltekit-reload>
+					<a
+						href={link}
+						data-sveltekit-reload
+						target={link.startsWith('http') ? '_blank' : undefined}
+						rel={link.startsWith('http') ? 'noopener noreferrer' : undefined}>
 						<div
 							class="my-1 flex content-center rounded-t-3xl rounded-bl-3xl p-8 shadow-2xl shadow-slate-800"
 							style="background-color: #FFF5F5">
@@ -35,7 +39,7 @@
 								<img
 									class="justify-items-left align-items-center object-scale-down p-2"
 									src={thumbnail}
-									alt="" />
+									alt="Thumbnail for {title}" />
 							</div>
 						</div>
 					</a>

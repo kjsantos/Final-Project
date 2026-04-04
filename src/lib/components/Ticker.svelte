@@ -6,15 +6,14 @@
 <aside class="my-auto flex overflow-visible pl-20 pt-1">
 	<Marquee speed={40} {play}>
 		<p class="ticker text-right">
-			&nbsp;&nbsp;This website was made using SvelteKit and Tailwind.css
+			&nbsp;&nbsp;Data Engineer &amp; Web Developer at the MTA
 			&nbsp;&nbsp;&nbsp;<br />
 		</p>
 		<p class="ticker text-right">
-			This is not a sponsored promotion of SvelteKit or Tailwind
-			&nbsp;&nbsp;&nbsp;<br />
+			Building tools that move New York &nbsp;&nbsp;&nbsp;<br />
 		</p>
 		<p class="ticker text-right">
-			But I do think making websites with this stack is fun &nbsp;<br />
+			Made with SvelteKit and Tailwind &nbsp;<br />
 		</p>
 	</Marquee>
 </aside>

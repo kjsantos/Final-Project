@@ -1,10 +1,6 @@
 <script>
 	import Ticker from '$lib/components/Ticker.svelte'
-	import { fly } from 'svelte/transition';
-	import { fade } from 'svelte/transition';
-	import TitleCard from '$lib/components/TitleCard.svelte'
-	import Sidebar from '$lib/components/Sidebar.svelte';
-	import Navbar from '$lib/components/Navbar.svelte';
+	import { fly, fade } from 'svelte/transition'
 </script>
 
 
@@ -69,7 +65,7 @@ out:fly={{y: 500, duration: 100}}>
       <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 32.3px;" x="30.747" y="230.997"> </text>
       <a href="/about"><text class="menu" style="fill: rgb(64, 255, 70); font-family: &quot;Josefin Sans&quot;; font-size: 32.3px; letter-spacing: 1.8px; white-space: pre;" transform="matrix(1, 0, 0, 1, 0, -46)" x="134.172" y="177.336"><textPath startOffset="-232" xlink:href="#path-6"><animate attributeName="startOffset" values="-232;-229;-124" dur="3.25s" fill="freeze" keyTimes="0; 0.68105; 1" calcMode="spline" keySplines="0 0 1 1; 0 0 0.58 1" begin="1s"></animate>About</textPath></text>
       </a>
-	  <a href = "/projects"><text class="menu" style="fill: rgb(64, 255, 70); font-family: &quot;Josefin Sans&quot;; font-size: 32.3px; white-space: pre;" x="312.996" y="85.092" transform="matrix(1, 0, 0, 1, 0, -46)"><textPath startOffset="-467" xlink:href="#path-6"><animate attributeName="startOffset" values="-467;-426;-134" dur="3.25s" fill="freeze" keyTimes="0; 0.61942; 1" calcMode="spline" keySplines="0 0 1 1; 0 0 0.58 1" begin="1s"></animate>Projects</textPath></text>
+	  <a href = "/work"><text class="menu" style="fill: rgb(64, 255, 70); font-family: &quot;Josefin Sans&quot;; font-size: 32.3px; white-space: pre;" x="312.996" y="85.092" transform="matrix(1, 0, 0, 1, 0, -46)"><textPath startOffset="-467" xlink:href="#path-6"><animate attributeName="startOffset" values="-467;-426;-134" dur="3.25s" fill="freeze" keyTimes="0; 0.61942; 1" calcMode="spline" keySplines="0 0 1 1; 0 0 0.58 1" begin="1s"></animate>Work</textPath></text>
       </a>
 	  <a href = "/writing"><text class="menu" style="fill: rgb(64, 255, 70); font-family: &quot;Josefin Sans&quot;; font-size: 32.3px; white-space: pre;" x="528.849" y="85.252" transform="matrix(1, 0, 0, 1, 0, -46)"><textPath startOffset="-670" xlink:href="#path-6"><animate attributeName="startOffset" values="-670;-637;-175" dur="3.22s" fill="freeze" keyTimes="0; 0.4887; 1" calcMode="spline" keySplines="0 0 1 1; 0 0 0.58 1" begin="1s"></animate>Writing</textPath></text>
       </a>

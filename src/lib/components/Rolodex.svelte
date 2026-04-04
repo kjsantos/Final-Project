@@ -3,10 +3,10 @@
 	import { slide } from 'svelte/transition'
 
 	let greetings = [
+		'a Data Engineer',
+		'a Web Developer',
 		'a Data Analyst',
-		'a Programmer',
-		'a Researcher',
-		'a Designer',
+		'a Visualization Designer',
 		'a Writer',
 	]
 	let index = 0

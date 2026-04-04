@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#f8f4ef"/>
+  <rect x="0" y="0" width="800" height="72" fill="#003DA5"/>
+  <text x="400" y="44" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="white" text-anchor="middle">MTA 20-Year Needs Assessment</text>
+  <rect x="40" y="100" width="720" height="2" fill="#003DA5" opacity="0.2"/>
+  <text x="400" y="145" font-family="Georgia,serif" font-size="28" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Building the Future of</text>
+  <text x="400" y="178" font-family="Georgia,serif" font-size="28" font-weight="bold" fill="#003DA5" text-anchor="middle">New York Transit</text>
+  <text x="400" y="215" font-family="Arial,sans-serif" font-size="14" fill="#555" text-anchor="middle">A comprehensive plan for infrastructure investment across all MTA divisions</text>
+  <rect x="100" y="248" width="140" height="90" rx="8" fill="white" stroke="#003DA5" stroke-width="1.5"/>
+  <rect x="270" y="248" width="140" height="90" rx="8" fill="white" stroke="#003DA5" stroke-width="1.5"/>
+  <rect x="440" y="248" width="140" height="90" rx="8" fill="white" stroke="#003DA5" stroke-width="1.5"/>
+  <rect x="610" y="248" width="140" height="90" rx="8" fill="white" stroke="#003DA5" stroke-width="1.5"/>
+  <text x="170" y="278" font-family="Arial,sans-serif" font-size="11" fill="#003DA5" text-anchor="middle" font-weight="bold">NYC TRANSIT</text>
+  <text x="340" y="278" font-family="Arial,sans-serif" font-size="11" fill="#003DA5" text-anchor="middle" font-weight="bold">LONG ISLAND RR</text>
+  <text x="510" y="278" font-family="Arial,sans-serif" font-size="11" fill="#003DA5" text-anchor="middle" font-weight="bold">METRO-NORTH</text>
+  <text x="680" y="278" font-family="Arial,sans-serif" font-size="11" fill="#003DA5" text-anchor="middle" font-weight="bold">BRIDGES &amp; TUNNELS</text>
+  <text x="170" y="300" font-family="Arial,sans-serif" font-size="20" fill="#1a1a1a" text-anchor="middle" font-weight="bold">$103B</text>
+  <text x="340" y="300" font-family="Arial,sans-serif" font-size="20" fill="#1a1a1a" text-anchor="middle" font-weight="bold">$18B</text>
+  <text x="510" y="300" font-family="Arial,sans-serif" font-size="20" fill="#1a1a1a" text-anchor="middle" font-weight="bold">$14B</text>
+  <text x="680" y="300" font-family="Arial,sans-serif" font-size="20" fill="#1a1a1a" text-anchor="middle" font-weight="bold">$9B</text>
+  <text x="170" y="318" font-family="Arial,sans-serif" font-size="10" fill="#666" text-anchor="middle">estimated need</text>
+  <text x="340" y="318" font-family="Arial,sans-serif" font-size="10" fill="#666" text-anchor="middle">estimated need</text>
+  <text x="510" y="318" font-family="Arial,sans-serif" font-size="10" fill="#666" text-anchor="middle">estimated need</text>
+  <text x="680" y="318" font-family="Arial,sans-serif" font-size="10" fill="#666" text-anchor="middle">estimated need</text>
+  <rect x="200" y="366" width="180" height="40" rx="6" fill="#003DA5"/>
+  <text x="290" y="391" font-family="Arial,sans-serif" font-size="14" fill="white" text-anchor="middle">Read the Report</text>
+  <rect x="420" y="366" width="180" height="40" rx="6" fill="white" stroke="#003DA5" stroke-width="2"/>
+  <text x="510" y="391" font-family="Arial,sans-serif" font-size="14" fill="#003DA5" text-anchor="middle">Learn More</text>
+  <text x="400" y="435" font-family="Arial,sans-serif" font-size="12" fill="#999" text-anchor="middle">future.mta.info</text>
+</svg>

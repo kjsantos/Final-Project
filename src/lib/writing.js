@@ -71,7 +71,7 @@ export const posts = [
 		thumbnail: '/images/crumb.jpeg',
 		image: '/images/crumb.jpeg',
 		subtitle:
-			"Report on Data Journalism from Boston University's Beat Reporting course",
+			"An interview with New York-based indie band Crumb, conducted for Boston University's The Beat after their show at Tufts University.",
 		content: `<br/><p class="blog">BOSTON — New York-based band Crumb blends styles to create an infectious sound that is at once unique and familiar. The four-piece consists of Lila Ramani, Jesse Brotter, Jonathan Gilad, and Brian Aronow, all of whom met while attending Tufts, and they released their self-titled EP in September. The Beat’s Kailen Santos met up with the band after their performance at Paige Hall on Tufts’ campus a few weeks ago and got the scoop about what’s new and what’s in store for Crumb fans in the future.
  
 <br /><br /><br /><b>Kailen:</b>	What is it like to be back playing at Tufts? Is this the first show you’ve performed here as Crumb?
@@ -110,23 +110,5 @@ export const posts = [
 <br /><br /><b>LR:</b>	This girl said she was going to do a cover of “Bones” and record it, so that’s crazy.
 <br />
 <br />You can order the limited pink brick cassette reissue of the Crumb EP on Bandcamp now, or you can find the album on Spotify and Soundcloud. Stay tuned for Crumb’s next EP, coming out soon.</p>`,
-	},
-
-	{
-		slug: 'data-jo-truth',
-		title: 'Data as Truth in Journalism',
-		link: '/writing/data-jo-truth',
-		subtitle:
-			"Report on Data Journalism from Boston University's Beat Reporting course",
-		content: '',
-	},
-
-	{
-		slug: 'data-jo-truth',
-		title: 'Data as Truth in Journalism',
-		link: '/writing/data-jo-truth',
-		subtitle:
-			"Report on Data Journalism from Boston University's Beat Reporting course",
-		content: '',
 	},
 ]

@@ -8,7 +8,7 @@
 	<br /><br />
 	<div class="flex-column container w-1/2">
 		<h1>{data.post.title}</h1>
-		<img src={data.post.image} alt="" />
+		<img src={data.post.image} alt="Illustration for {data.post.title}" />
 	</div>
 	{@html data.post.content}
 	<br /><br />

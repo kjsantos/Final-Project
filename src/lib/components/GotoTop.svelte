@@ -14,7 +14,7 @@
 
 {#if showGotoTop}
 	<button
-		on:click={gotoTop}
+		onclick={gotoTop}
 		class="goto__top"
 		title="Go to top"
 		in:fly={{ y: 300, duration: 100 }}
