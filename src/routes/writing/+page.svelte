@@ -2,8 +2,6 @@
 import GotoTop from '$lib/components/GotoTop.svelte'
 import Writing from '$lib/components/Writing.svelte'
 import { fade } from 'svelte/transition'
-
-export let data
 </script>
 
 <svelte:head>

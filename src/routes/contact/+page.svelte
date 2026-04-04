@@ -46,7 +46,7 @@
 	.subtitle {
 		font-family: 'josefin-sans', sans-serif;
 		font-size: 1rem;
-		color: #718096;
+		color: #8a9ba8;
 		line-height: 1.6;
 		font-weight: 400;
 		margin-bottom: 2rem;
