@@ -1,16 +1,12 @@
 <script lang="ts">
-import Saos from 'saos'
+import { fly } from 'svelte/transition'
 import { posts } from '$lib/writing.js'
 </script>
 
 <section class="writing-section" aria-label="Writing">
 {#each posts as { title, subtitle, link, thumbnail }}
-<Saos
-animation={'fade-in .3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both'}
-animation_out={'slide-out-fwd-center 0.3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both'}
-top={80}
-bottom={120}>
 <a
+		in:fly={{ y: 20, duration: 300, delay: 100 }}
 href={link}
 class="writing-card"
 target={link.startsWith('http') ? '_blank' : undefined}
@@ -26,7 +22,6 @@ title={title} />
 <p>{subtitle}</p>
 </div>
 </a>
-</Saos>
 {/each}
 </section>
 
