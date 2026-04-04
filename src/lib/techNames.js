@@ -19,7 +19,8 @@ photoshop: 'Photoshop',
 plotly: 'Plotly',
 bootstrap: 'Bootstrap',
 mantine: 'Mantine',
-openlayers: 'OpenLayers'
+openlayers: 'OpenLayers',
+tensorflow: 'TensorFlow'
 }
 
 /** Returns "Next.js logo" from "nextjs-logo.svg" */

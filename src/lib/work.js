@@ -111,18 +111,18 @@ export const projects = [
 		slug: 'nyc-safety-ml',
 		title: 'NYC Street Safety Score Prediction',
 		description:
-			'A TensorFlow neural network predicting street-level safety scores (1–10) for NYC locations by merging DOT service request and NYPD collision data.',
+			'A TensorFlow/Keras CNN predicting intersection-level safety risk across NYC by joining DOT streetlight service requests with NYPD collision records into a novel 26,271-row geospatial dataset.',
 		link: 'https://github.com/kjsantos/Info-656-Final-Project',
 		thumbnail: '/images/placeholder-ml.svg',
 		tags: ['Data Analysis', 'Machine Learning'],
-		tech: ['python-logo.png', 'jupyter-logo.png'],
-		content: `<p class="blog">This project combines two large NYC Open Data datasets to predict street-level safety scores for any location in New York City. The model ingests 1.7 million <strong>DOT Street Lights and Traffic Signals</strong> service requests and 2 million <strong>NYPD Motor Vehicle Collision</strong> records to identify which intersections carry the highest risk during periods of known infrastructure failures.
+		tech: ['python-logo.png', 'jupyter-logo.png', 'tensorflow-logo.png'],
+		content: `<p class="blog">For my Pratt capstone, I engineered a novel geospatial dataset by joining two large NYC Open Data sources: <strong>1.7 million DOT streetlight and traffic signal service requests</strong> and <strong>2 million NYPD Motor Vehicle Collision records</strong>. Linking them required a custom spatial join using lat/long coordinate rounding and a temporal windowing strategy to match collisions to open infrastructure requests at the same intersection — producing a dataset of <strong>26,271 rows and 123 features</strong>.
 
-<br /><br />A custom heuristic safety score (1–10 scale) was engineered by aggregating collision severity within the open timeframe of each service request at the same geographic location. Because many locations had zero incidents during any given request period, the distribution was heavily right-skewed. A <strong>BoxCox transformation</strong> was applied before binning into percentile-based deciles, producing a training target with more balanced class representation.
+<br /><br />I designed a weighted heuristic scoring methodology to classify each intersection's safety risk on a <strong>1–10 scale</strong>, aggregating collision severity within the active timeframe of each service request at the matched location. Because most locations had zero incidents during any given request period, the distribution was severely right-skewed. I applied <strong>Box-Cox transformations</strong> before binning into percentile-based deciles to produce a balanced training target.
 
-<br /><br />The resulting dataset of 26,000+ rows — with 13 numeric and 3 categorical features — was processed through a <strong>ColumnTransformer</strong> pipeline (StandardScaler + OneHotEncoder), expanding to 123 features total. A baseline <strong>Keras</strong> neural network achieved 94% validation accuracy and an F1-macro score of 0.79. Systematic hyperparameter tuning via <strong>Keras Tuner's Hyperband</strong> algorithm across 30 trials yielded an optimized architecture with <strong>BatchNormalization</strong> and <strong>Dropout(0.3)</strong> layers that reached <strong>96.7% validation accuracy</strong> and an F1-macro of <strong>0.82</strong>, with early stopping at epoch 44.
+<br /><br />The feature pipeline used a scikit-learn <strong>ColumnTransformer</strong> combining <strong>MinMaxScaler</strong>, <strong>StandardScaler</strong>, and <strong>OneHotEncoder</strong> to handle mixed numeric and categorical features. A baseline <strong>Keras</strong> neural network achieved 94% validation accuracy (F1-macro 0.79). I then ran <strong>30 hyperparameter trials</strong> with <strong>Keras Tuner's Hyperband</strong> algorithm, arriving at an optimized architecture with <strong>BatchNormalization</strong> and <strong>Dropout(0.3)</strong> that reached <strong>96.7% validation accuracy</strong> (F1-macro 0.82) with early stopping at epoch 44.
 
-<br /><br />The model is intended to help city planners and first responders prioritize infrastructure repairs based on predicted collision risk at locations with open service requests. The full code and trained model are available on <a class="link" href="https://github.com/kjsantos/Info-656-Final-Project" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>`,
+<br /><br />The full code, notebook, and trained model are available on <a class="link" href="https://github.com/kjsantos/Info-656-Final-Project" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>`,
 	},
 
 	{
