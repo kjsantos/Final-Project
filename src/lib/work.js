@@ -13,7 +13,7 @@ export const projects = [
 		link: 'https://capitaldashboard.mta.info',
 		thumbnail: '/images/capital-dashboard-screenshot.png',
 		tags: ['Data Visualization', 'Web Development'],
-		tech: ['nextjs-logo.svg', 'typescript-logo.svg', 'mantine-logo.svg', 'openlayers-logo.svg', 'plotly-logo.png'],
+		tech: ['nextjs-logo.png', 'typescript-logo.png', 'mantine-logo.png', 'openlayers-logo.png', 'plotly-logo.png'],
 		content: `<p class="blog">At the MTA, I contribute to tools that make capital planning data accessible to the public. The Capital Plan Dashboard is an interactive web application enabling transit riders, planners, and government stakeholders to explore the MTA's capital investment portfolio — the largest capital program in the agency's history.
 
 <br /><br />The dashboard surfaces data from the New York Open Data Portal, visualizing project funding, geographic distribution, and execution timelines across all MTA divisions: NYC Transit, Long Island Rail Road, Metro-North Railroad, Bridges &amp; Tunnels, and MTA Police. A core feature is the ACEP (Annual Capital Expenditure Plan) integration, which provides a granular view of how capital dollars are being spent against planned allocations at the program and project level.
@@ -33,7 +33,7 @@ export const projects = [
 		link: 'https://future.mta.info',
 		thumbnail: '/images/20yn-screenshot.png',
 		tags: ['Web Development'],
-		tech: ['react-logo.svg', 'javascript-logo.png', 'bootstrap-logo.svg'],
+		tech: ['react-logo.svg', 'javascript-logo.png', 'bootstrap-logo.png'],
 		content: `<p class="blog">The MTA's 20-Year Needs Assessment is a comprehensive planning document that defines the capital investment required to maintain and modernize New York's transit network over the next two decades. The public-facing website at <a class="link" href="https://future.mta.info" target="_blank" rel="noopener noreferrer">future.mta.info</a> was originally built by an external consultant, HDR, using jQuery and vanilla JavaScript. When the contract ended and the site became our team's product to own, I took on the challenge of migrating it entirely in-house.
 
 <br /><br />As the only person on my unit with web development experience, I was responsible for more than just code — I had to manage hosting, deployment, and ongoing maintenance, and navigate the MTA's internal web infrastructure to find a sustainable path forward. This meant collaborating across departments and eventually working with the MTA's web team to bring the site onto the <strong>mta.info</strong> domain, a meaningful step toward treating our public communications as a first-class product rather than a contractor deliverable.
