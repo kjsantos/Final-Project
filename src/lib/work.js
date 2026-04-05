@@ -13,7 +13,7 @@ export const projects = [
 		link: 'https://capitaldashboard.mta.info',
 		thumbnail: '/images/capital-dashboard-screenshot.png',
 		tags: ['Data Visualization', 'Web Development'],
-		tech: ['nextjs-logo.png', 'typescript-logo.png', 'mantine-logo.png', 'openlayers-logo.png', 'plotly-logo.png'],
+		tech: ['nextjs-logo.png', 'typescript-logo.png', 'react-logo.svg', 'mantine-logo.png', 'openlayers-logo.png', 'plotly-logo.png', 'airflow-logo.png', 'spark-logo.png', 'arcgis-logo.png'],
 		content: `<p class="blog">At the MTA, I contribute to tools that make capital planning data accessible to the public. The Capital Plan Dashboard is an interactive web application enabling transit riders, planners, and government stakeholders to explore the MTA's capital investment portfolio — the largest capital program in the agency's history.
 
 <br /><br />The dashboard surfaces data from the New York Open Data Portal, visualizing project funding, geographic distribution, and execution timelines across all MTA divisions: NYC Transit, Long Island Rail Road, Metro-North Railroad, Bridges &amp; Tunnels, and MTA Police. A core feature is the ACEP (Annual Capital Expenditure Plan) integration, which provides a granular view of how capital dollars are being spent against planned allocations at the program and project level.

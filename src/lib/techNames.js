@@ -20,7 +20,10 @@ plotly: 'Plotly',
 bootstrap: 'Bootstrap',
 mantine: 'Mantine',
 openlayers: 'OpenLayers',
-tensorflow: 'TensorFlow'
+tensorflow: 'TensorFlow',
+airflow: 'Apache Airflow',
+spark: 'Apache Spark',
+arcgis: 'ArcGIS Enterprise'
 }
 
 /** Returns "Next.js logo" from "nextjs-logo.svg" */
