@@ -1,7 +1,7 @@
 <script>
-	export let data
 	import GotoTop from '$lib/components/GotoTop.svelte'
 	import { techAlt } from '$lib/techNames.js'
+	let { data } = $props()
 </script>
 
 <svelte:head>

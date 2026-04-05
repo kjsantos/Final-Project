@@ -1,6 +1,6 @@
 <script>
-	export let data
 	import GotoTop from '$lib/components/GotoTop.svelte'
+	let { data } = $props()
 </script>
 
 <svelte:head>

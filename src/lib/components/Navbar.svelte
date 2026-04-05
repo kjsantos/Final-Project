@@ -2,7 +2,7 @@
 	import Hamburger from './Hamburger.svelte'
 	import Ticker from './Ticker.svelte'
 
-	export let sidebar = false
+	let { sidebar = $bindable(false) } = $props()
 </script>
 
 <header class="fixed my-auto bg-transparent">

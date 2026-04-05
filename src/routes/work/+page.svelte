@@ -7,11 +7,11 @@
 	const ALL = 'All'
 	const tags = [ALL, 'Data Visualization', 'Web Development', 'Data Analysis', 'Machine Learning', 'UX Research']
 
-	let activeTag = ALL
+	let activeTag = $state(ALL)
 
-	$: filtered = activeTag === ALL
-		? projects
-		: projects.filter((p) => p.tags.includes(activeTag))
+	let filtered = $derived(
+		activeTag === ALL ? projects : projects.filter((p) => p.tags.includes(activeTag))
+	)
 </script>
 
 <svelte:head>
@@ -31,7 +31,7 @@
 				<button
 					class="filter-btn"
 					class:active={activeTag === tag}
-					on:click={() => (activeTag = tag)}
+					onclick={() => (activeTag = tag)}
 					aria-pressed={activeTag === tag}>
 					{tag}
 				</button>

@@ -1,15 +1,15 @@
 <script>
 	import { fade, fly } from 'svelte/transition'
 
-	export let showAtPixel = 2000
+	let { showAtPixel = 2000 } = $props()
 
-	let scrollHeight = 0
+	let scrollHeight = $state(0)
 
 	const gotoTop = () => {
 		window.scrollTo({ top: 0, behavior: 'smooth' })
 	}
 
-	$: showGotoTop = scrollHeight > showAtPixel
+	let showGotoTop = $derived(scrollHeight > showAtPixel)
 </script>
 
 {#if showGotoTop}

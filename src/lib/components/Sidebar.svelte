@@ -1,7 +1,7 @@
 <script>
-	export let open = false
-
 	import Hamburger from './Hamburger.svelte'
+
+	let { open = $bindable(false) } = $props()
 
 	function handleClick() {
 		open = !open

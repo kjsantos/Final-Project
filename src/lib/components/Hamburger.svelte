@@ -1,5 +1,5 @@
 <script>
-	export let open = false
+	let { open = $bindable(false) } = $props()
 </script>
 
 <button
