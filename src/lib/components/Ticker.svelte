@@ -1,6 +1,6 @@
 <script>
 	import Marquee from 'svelte-fast-marquee'
-	let play = true
+	let play = $state(true)
 </script>
 
 <aside class="my-auto flex overflow-visible pl-20 pt-1">

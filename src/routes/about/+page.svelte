@@ -27,7 +27,7 @@ alt="Kailen Santos in San Francisco" />
 <div class="about-body">
 <p>
 I'm a data professional at the Metropolitan Transportation Authority (MTA), where I work on tools
-that make capital planning data accessible to the  from interactive dashboardspublic 
+that make capital planning data accessible to the public — from interactive dashboards
 tracking billions of dollars in transit investment to public-facing websites supporting
 the agency's long-range planning efforts.
 </p>
@@ -39,7 +39,7 @@ stories for the Boston University News Service and contributed tutorials and ana
 to the Open Data Science Conference.
 </p>
 <p>
-I'm drawn to the intersection of data, design, and  the places wheretechnology 
+I'm drawn to the intersection of data, design, and technology — the places where
 careful analysis and thoughtful presentation combine to make complex information
 legible and actionable. Whether that's a neural network predicting street safety
 or an interactive map of subway capital projects, I believe the best data work

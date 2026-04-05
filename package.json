@@ -30,7 +30,7 @@
 	"type": "module",
 	"dependencies": {
 		"gsap": "^3.12.7",
-		"svelte-fast-marquee": "^0.4.1"
+		"svelte-fast-marquee": "^1.0.2"
 	},
 	"engines": {
 		"node": "22.x"
